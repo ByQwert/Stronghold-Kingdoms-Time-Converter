@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Converter</title>
+	<link rel="icon" type="image/png" href="favicon.ico" />
+</head>
+<body>
+	<input type="button" value="Как пользоваться?" onclick="guide()">
+	<div id="guide" hidden>
+		<ol>
+			<li>
+				Введи известное время в одно из полей			
+			</li>
+			<img src="img/1.png">
+			<li>
+				Нажми кнопку "Рассчитать"			
+			</li>
+			<img src="img/2.png">
+			<li>Успешной атаки!</li>
+			<img src="img/3.png">
+		</ol>
+		<p>Доступные форматы:</p>
+		<ul>
+			<li>ЧЧ:ММ:СС</li>
+			<li>ЧЧ ММ СС</li>
+			<li>ЧЧ.ММ.СС</li>
+		</ul>
+	</div>
+	<form style="width: 250px">
+		<fieldset>
+			<p>
+				<label for="x1">x1</label>
+				<input type="text" name="x1">
+			</p>
+			<p>
+				<label for="x2">x2</label>
+				<input type="text" name="x2">
+			</p>
+			<p>
+				<label for="x3">x3</label>
+				<input type="text" name="x3">
+			</p>
+			<p>
+				<label for="x4">x4</label>
+				<input type="text" name="x4">
+			</p>
+			<p>
+				<label for="x5">x5</label>
+				<input type="text" name="x5">
+			</p>
+			<p align="center">
+				<input type="button" value="Рассчитать" onclick="count()">
+				<input type="reset" value="Сбросить" onclick="gui()">
+			</p>			
+		</fieldset>
+	</form>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
