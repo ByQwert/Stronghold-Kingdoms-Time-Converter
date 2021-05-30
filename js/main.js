@@ -9,7 +9,7 @@ var worker,
 		seconds;
 
 function count() {
-	for (i = 1; i < 6; i++) {
+	for (i = 1; i < 7; i++) {
 		worker = $("[name=x" + i +"]").val();
 		if (worker) {
 			var VRegExp = new RegExp(/[:\,\ .]/g);
