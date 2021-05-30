@@ -19,7 +19,7 @@ function count() {
 			});
 			fullTimeInSeconds = knownTime[0]*60*60 + knownTime[1]*60 + knownTime[2];
 			standartInSeconds = fullTimeInSeconds*i;
-			for (j = 1; j < 6; j++) {
+			for (j = 1; j < 7; j++) {
 				if (i != j) {
 					worker = Math.floor(standartInSeconds/j);
 					minutes = Math.floor(worker/60);
